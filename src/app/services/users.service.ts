@@ -8,7 +8,7 @@ import { User } from '../models/user';
 export class UsersService {
 
   selectedUser: User;
-  readonly URL_USER = 'http://localhost:5555/users'
+  readonly URL_USER = 'http://localhost:5555/users';
 
   constructor(private http: HttpClient) {
     this.selectedUser = new User();
